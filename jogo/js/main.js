@@ -16,5 +16,9 @@ function draw() {
     movimentoMascote();
     incluirPontos();
     verificarColisao();
-    rect()
+   
+    
+
+    
+    
 }
