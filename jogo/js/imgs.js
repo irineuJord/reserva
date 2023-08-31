@@ -22,6 +22,6 @@ function preload() {
     imagemCarro6 = loadImage("img/carro6.png");//img carro 6
 
     //array
-    imagensCarros =[imagemCarro1, imagemCarro2, imagemCarro3]
-    imagensCarros2 =[ imagemCarro4, imagemCarro5, imagemCarro6]
+    imagensCarros = [imagemCarro1, imagemCarro2, imagemCarro3]
+    imagensCarros2 = [imagemCarro4, imagemCarro5, imagemCarro6]
 }

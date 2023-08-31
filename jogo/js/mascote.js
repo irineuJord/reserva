@@ -55,7 +55,6 @@ function movimentoMascote() {
         xMascote = -35
     }
 
-
     if (keyIsDown(UP_ARROW)) {
         yMascote -= 2;
 
@@ -73,7 +72,24 @@ function movimentoMascote() {
         ImagemDoMascote = loadImage("img/marioL.png");
     }
 
+    if (keyIsDown(32)) {
+        yMascote -= 2;
+        setTimeout(() => {
+            ImagemDoMascote = loadImage("img/mario.png")
+
+        }, 100);
+        setTimeout(() => {
+            ImagemDoMascote = loadImage("img/pikachu.gif")
+
+        }, 200);
+        setTimeout(() => {
+            ImagemDoMascote = loadImage("img/carro5.png")
+
+        }, 400);
+
+    }
 }
+
 
 
 
