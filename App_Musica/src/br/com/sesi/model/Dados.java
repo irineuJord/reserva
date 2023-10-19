@@ -85,7 +85,7 @@ public void curtir() {
 
     String curtir;
     do {
-        System.out.println("Deseja curtir esta música Deseja curtir esta música novamente?? (SIM ou NAO)");
+        System.out.println("Deseja curtir esta música novamente? (SIM ou NAO)");
         curtir = scanner.nextLine();
 
         if (curtir.equalsIgnoreCase("SIM")) {
