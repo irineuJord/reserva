@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlasWord|Países</title>
+
+    <link rel="stylesheet" href="./css/TelaEstado.css">
+
+    <!-- Links das Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googl
+    eapis.com/css2?family=Comfortaa:wght@500&family=Karantina&display=swap" rel="stylesheet">
+
+    <!-- Links dos Icones -->
+    <link REL="SHORTCUT ICON" HREF="./imgs/Logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="logo">
+        <a href="./home.html"><img src="./imgs/LOGO 1.svg" alt=""></a>
+    </div>
+
+    <div class="fundo">
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="country-slide" alt="SãoPaulo"> <a href="./TelaCidadeSP.html">assa</a></div>
+            <div class="country-slide" alt="RioDeJaneiro"><a href="./TelaCidadesRJ.html">assa</a></div>
+            <div class="country-slide" alt="Bahia"><a href="./TelaCidadesBA.html">assa</a></div>
+            <div class="country-slide" alt="Acre"><a href="./TelaCidadesAC.html">assa</a></div>
+            <div class="country-slide" alt="Goias"><a href="./TelaCidades.html">assa</a><a
+                    href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="MatGrosso"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="MinasGerais"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="RioGrandeDoSul"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="SantaCatarina"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="Pernambuco"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="Parana"><a href="./TelaCidades.html">assa</a></div>
+            <div class="country-slide" alt="Ceara"><a href="./TelaCidades.html">assa</a></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+
+    <div class="letras" onmouseenter="changeAlphabet()" onmouseleave="changeBack()">
+        <p id="letters">A-Z</p>
+        <ul id="alphabet" class="alphabet-list">
+            <!-- Lista de Alfabeto -->
+        </ul>
+    </div>
+
+    <script src="./js/letras.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.body.classList.add('show');
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>
